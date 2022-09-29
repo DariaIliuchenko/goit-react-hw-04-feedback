@@ -14,7 +14,7 @@ const App = () => {
   
 
   const onLeaveFeedback = event => {
-    const { name } = event.target.attributes.option;
+    const {name} = event.target;
     switch(name){
     case "good":
       setGood(prevState => prevState +1);
